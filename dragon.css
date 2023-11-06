@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    text-align: center;
+    margin-left: 50;
+}
+
+a:hover {
+    color: #0056b3;
+}
+.centered-div {
+    text-align: center; 
+}
+.centered-anchor {
+    display: inline-block;
+}
+.btn {
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
